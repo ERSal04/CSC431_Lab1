@@ -20,7 +20,7 @@ except:
     # If above fails, attempting to write to onedrive desktop
     write_to_file_in_path(os.path.join(os.path.expanduser("~"), "OneDrive", "Desktop", f"{team_name}.txt"))
 
-print(f"File written to {file_path}")
+# print(f"File written to {file_path}")
 
 
 """
